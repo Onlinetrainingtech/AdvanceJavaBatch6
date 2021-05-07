@@ -7,10 +7,11 @@
 <title>Insert title here</title>
 </head>
 <body>
-<a href="#">Home</a>
-<a href="UserLogin.jsp">UserLogin</a>
-<a href="AdminLogin.jsp">AdminLogin</a>
-<a href="UserRegister.jsp">UserRegister</a>
 
+<jsp:include page="header.jsp"></jsp:include>
+
+<h3>This is IndexPage</h3>
+
+<jsp:include page="footer.jsp"></jsp:include>
 </body>
 </html>

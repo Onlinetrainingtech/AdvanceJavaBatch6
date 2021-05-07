@@ -7,6 +7,12 @@
 <title>Insert title here</title>
 </head>
 <body>
-
+<form action="Userregaction.jsp">
+UserName:<input type="text" name="uname"/>
+Password:<input type="text" name="pass"/>
+EmailId:<input type="text" name="email"/>
+MobileNo:<input type="text" name="mobile"/>
+<input type="submit" value="Submit"/>
+</form>
 </body>
 </html>

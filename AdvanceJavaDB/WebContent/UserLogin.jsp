@@ -8,8 +8,10 @@
 </head>
 <body>
 <h3>UserLoginPage</h3>
+
+<jsp:include page="header.jsp"></jsp:include>
 <form action="Userloginaction.jsp">
-UserId:<input type="text" name="email"/>
+UserId:<input type="text" name="uname"/>
 UserPwd:<input type="text" name="pass"/>
 <input type="submit" value="UserLogin"/>
 </form>
